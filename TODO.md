@@ -1,3 +1,0 @@
-- BG Image, on Contentful
-- Google Analytics Code
-- Mailchimp Signup

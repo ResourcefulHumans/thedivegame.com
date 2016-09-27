@@ -11,11 +11,15 @@
   "homepage": "https://thedivegame.com",
   "devDependencies": {
     "ghooks": "^1.0.3",
+    "node-static": "^0.7.8",
     "validate-commit-msg": "^2.0.0"
   },
   "config": {
     "ghooks": {
       "commit-msg": "validate-commit-msg"
     }
+  },
+  "scripts": {
+    "dev-server": "static ./"
   }
 }
