@@ -1,0 +1,21 @@
+{
+  "name": "thedivegame-teaser",
+  "description": "^",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResourcefulHumans/thedivegame.com.git"
+  },
+  "author": "Resourceful Humans <info@resourceful-humans.com> | http://resourceful-humans.com/",
+  "license": "UNLICENSED",
+  "homepage": "https://thedivegame.com",
+  "devDependencies": {
+    "ghooks": "^1.0.3",
+    "validate-commit-msg": "^2.0.0"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    }
+  }
+}
