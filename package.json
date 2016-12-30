@@ -6,18 +6,16 @@
     "type": "git",
     "url": "git+https://github.com/ResourcefulHumans/thedivegame.com.git"
   },
+  "scripts": {
+    "commitmsg": "validate-commit-msg"
+  },
   "author": "Resourceful Humans <info@resourceful-humans.com> | http://resourceful-humans.com/",
   "license": "UNLICENSED",
   "homepage": "https://thedivegame.com",
   "devDependencies": {
-    "ghooks": "^1.0.3",
+    "husky": "<2.0.0",
     "node-static": "^0.7.8",
     "validate-commit-msg": "^2.0.0"
-  },
-  "config": {
-    "ghooks": {
-      "commit-msg": "validate-commit-msg"
-    }
   },
   "scripts": {
     "dev-server": "static ./"
